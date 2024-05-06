@@ -17,11 +17,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={sans.className}>
+      <body className={`${sans.className} bg-white`}>
         <div>
           {children}
-          <Footer />
         </div>
+        <Footer />
       </body>
     </html>
   );
